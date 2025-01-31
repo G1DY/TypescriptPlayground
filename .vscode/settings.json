@@ -1,0 +1,6 @@
+{
+  "terminal.integrated.suggest.builtinCompletions": {
+    "pwshCode": true,
+    "pwshGit": true
+  }
+}
