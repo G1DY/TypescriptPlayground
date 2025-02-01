@@ -1,8 +1,2 @@
-type Person = {
-    name: string;
-};
-const person: Person = {
-    name: "John",
-};
-
-console.log(person.name);
+let tshard: boolean = false;
+console.log(tshard);
