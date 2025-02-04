@@ -87,3 +87,14 @@ console.log(password);
 let MyTuple: [string, number] = ["hello", 34];
 console.log(MyTuple[0]);
 console.log(MyTuple[1]);
+
+// enum
+enum WeatherConditions {
+  sunny = "sunny",
+  windy = "windy",
+  cloudy = "cloudy",
+  rainy = "rainy",
+  calm = "calm",
+}
+const CurrentWeather = WeatherConditions.sunny;
+console.log(`The Current weather condition is: ${CurrentWeather}`);
