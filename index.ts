@@ -12,7 +12,7 @@ console.log(result);
 const Person: { firstName: string; lastName: string; age: number } = {
   firstName: "Gideon",
   lastName: "Sitienei",
-  age: 30,
+  age: 35,
 };
 console.log(`Name: ${Person.firstName} ${Person.lastName}, Age: ${Person.age}`);
 
@@ -24,7 +24,7 @@ type Person = {
 };
 const user: Person = {
   name: "Gideon",
-  age: 30,
+  age: 40,
   location: "uganda",
 };
 console.log(
