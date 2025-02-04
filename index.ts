@@ -98,3 +98,15 @@ enum WeatherConditions {
 }
 const CurrentWeather = WeatherConditions.sunny;
 console.log(`The Current weather condition is: ${CurrentWeather}`);
+
+// class annotation
+class Student {
+  name: string; //fields
+  age: number; //field
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+const student = new Student("gideon", 35);
+console.log(`We admitted ${student.name} who is ${student.age}`);
