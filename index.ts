@@ -15,3 +15,18 @@ const Person: { firstName: string; lastName: string; age: number } = {
   age: 30,
 };
 console.log(`Name: ${Person.firstName} ${Person.lastName}, Age: ${Person.age}`);
+
+// alias
+type Person = {
+  name: string;
+  age: number;
+  location: string;
+};
+const user: Person = {
+  name: "Gideon",
+  age: 30,
+  location: "uganda",
+};
+console.log(
+  `Name: (${user.name}) Age: (${user.age}) Location: (${user.location})`
+);
