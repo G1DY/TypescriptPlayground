@@ -73,3 +73,12 @@ let gideon: UserInfo | AccoundDetails = {
   password: 12345678,
 };
 console.log(`Email: ${gideon.email} Password: ${gideon.password}`);
+
+// literal types
+let isTrue: false | true;
+isTrue = false;
+console.log(isTrue);
+
+let password: "Admin123" | string | number;
+password = "test123";
+console.log(password);
