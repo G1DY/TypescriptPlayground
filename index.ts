@@ -82,3 +82,8 @@ console.log(isTrue);
 let password: "Admin123" | string | number;
 password = "test123";
 console.log(password);
+
+// tuples
+let MyTuple: [string, number] = ["hello", 34];
+console.log(MyTuple[0]);
+console.log(MyTuple[1]);
