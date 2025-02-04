@@ -2,7 +2,7 @@
 class Animal {
   public name: string;
   protected species: string;
-  private age: number;
+  public age: number;
 
   constructor(name: string, species: string, age: number) {
     this.name = name;
@@ -15,7 +15,7 @@ class Animal {
   protected getSpecies(): string {
     return this.species;
   }
-  private getAge(): number {
+  public getAge(): number {
     return this.age;
   }
 }
