@@ -65,7 +65,7 @@ type UserInfo = {
 
 type AccoundDetails = {
   email: string;
-  password: string | number;
+  password: string | number; //single variable
 };
 
 let gideon: UserInfo | AccoundDetails = {
