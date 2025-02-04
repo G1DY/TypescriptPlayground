@@ -31,7 +31,7 @@ console.log(
   `Name: (${user.name}) Age: (${user.age}) Location: (${user.location})`
 );
 
-// Intersection type
+// Intersection type combines more than one type at once
 type Parent = {
   name: string;
   age: number;
@@ -54,3 +54,22 @@ console.log(groupA);
 console.log(
   `Name: ${groupA.name}, Age: ${groupA.age}, Id: ${groupA.id}, Title: ${groupA.title}`
 );
+
+// Unions can be used with types, objects, single variable etc
+
+type UserInfo = {
+  name: string;
+  age: number;
+  location: string;
+};
+
+type AccoundDetails = {
+  email: string;
+  password: string | number;
+};
+
+let gideon: UserInfo | AccoundDetails = {
+  email: "gideon@gmail.com",
+  password: 12345678,
+};
+console.log(`Email: ${gideon.email} Password: ${gideon.password}`);
