@@ -30,3 +30,27 @@ const user: Person = {
 console.log(
   `Name: (${user.name}) Age: (${user.age}) Location: (${user.location})`
 );
+
+// Intersection type
+type Parent = {
+  name: string;
+  age: number;
+};
+
+type Child = {
+  id: number;
+  title: string;
+};
+
+type Employee = Parent & Child;
+
+const groupA: Employee = {
+  name: "Dan Rueben",
+  age: 35,
+  id: 27243082,
+  title: "Manager",
+};
+console.log(groupA);
+console.log(
+  `Name: ${groupA.name}, Age: ${groupA.age}, Id: ${groupA.id}, Title: ${groupA.title}`
+);
