@@ -15,4 +15,4 @@ class Box<T> {
   }
 }
 const stringBox = new Box<string>("hello, typescript");
-console.log(stringBox);
+console.log(stringBox.getContent());
