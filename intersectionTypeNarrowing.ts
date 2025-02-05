@@ -1,5 +1,3 @@
-import { workerData } from "worker_threads";
-
 type WorkMate = {
   id: number;
   name: string;
