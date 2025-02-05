@@ -1,6 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var manager = {
+const manager = {
     id: 123,
     name: "gideon",
     department: "Tech",
